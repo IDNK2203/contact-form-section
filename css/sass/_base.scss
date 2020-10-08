@@ -1,0 +1,57 @@
+// resets
+*{
+  padding: 0rem;
+  margin:0rem;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: $font-family;
+  font-size: $Font-size;
+}
+
+// utilities
+.container{
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 1rem;
+  height: 100%;
+  // margin: 1rem 0;
+}
+
+@mixin mQ($breakpoint){
+  @media screen and(min-width:$breakpoint) {
+    @content;
+  } 
+}
+@mixin flex {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+  // display:block;
+  cursor: pointer;
+}
+img{
+  max-width: 100%;
+}
+ul{
+  list-style-type: none;
+}
+body{
+  // background:rgb(32, 32, 255);
+  text-align: center;
+  color: white;
+}
+// h1 , h2{
+  // color:$Very-Dark-Violet;
+// }
+p{
+  // color:$Grayish-Violet;
+  padding: .25rem 0;
+  font-size:.9rem;
+} 

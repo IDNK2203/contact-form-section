@@ -1,0 +1,20 @@
+.btn {
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #325bd1;
+  border: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  font-family: inherit;
+  outline: none;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.btn--primary {
+  background: white;
+  box-shadow: -1px 4px 0px 0px rgba(4, 68, 128, 0.63);
+}
